@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* WoddleChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WoddleChallengeTests.m */; };
+		054FA75FC6B342A3AE80BA7B /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9B461CA8C95400E90F726CF /* Roboto-Thin.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		17E1535219F9461795E51520 /* Cabin_SemiCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8645B72407F34FF895D440AD /* Cabin_SemiCondensed-BoldItalic.ttf */; };
+		1A50CA1C15E646B2976AD741 /* Cabin_Condensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9EF8A910D614F62853CC189 /* Cabin_Condensed-Bold.ttf */; };
+		294AA7323B374778AAE6BA28 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 985BECBB8DC9442891F7E7D6 /* Roboto-Black.ttf */; };
+		2BEC7C766E4A4905BAA3A3F0 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62BF16911715400784FD3D80 /* Roboto-BoldItalic.ttf */; };
+		2DB552F73DF343969A34153F /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07C1797619434D189A8ECE5B /* Roboto-Medium.ttf */; };
+		38FAFE34D0EE45C29E97082B /* Cabin_Condensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14448B0628A54AB6B34938F4 /* Cabin_Condensed-Medium.ttf */; };
+		47E73B21EB7B4BDCB5085B8A /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E91542B5A5BE447E878F3F50 /* Roboto-Regular.ttf */; };
+		485A0B14DD3745908CF724BB /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE4E532B529944BC9EC1E4DA /* Roboto-Bold.ttf */; };
+		50F90B0E6F0F4E08ADCB42B4 /* Cabin_SemiCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D6966095FA431BB8672B80 /* Cabin_SemiCondensed-Regular.ttf */; };
+		5375BA9737CD44F780E26373 /* Cabin_SemiCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D43750D66FA04D0D8F304816 /* Cabin_SemiCondensed-SemiBold.ttf */; };
+		60EBE26E07B54C01B6C365B0 /* Cabin_Condensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E256D52DBD294E9FAFFF8419 /* Cabin_Condensed-SemiBoldItalic.ttf */; };
+		778FED3421CE49EEA2E8D318 /* Cabin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F32818073E43978D891862 /* Cabin-Regular.ttf */; };
+		7A5246D8D1E643B3973B94BC /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 875406026D7C45E7A1B54818 /* Roboto-Italic.ttf */; };
+		7D0ADCD7A3BF498892AD6941 /* Cabin-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B291293DEDCC4E1BA16E8146 /* Cabin-SemiBold.ttf */; };
+		7E424B36BD6B40DD97860B2B /* Cabin_SemiCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BD4429D5F574DA4B7002730 /* Cabin_SemiCondensed-Bold.ttf */; };
+		7ED7C9B7FE594FF4960D7B41 /* Cabin-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2EA5793983B48D09E718766 /* Cabin-BoldItalic.ttf */; };
+		80BC0C9B008A4F548F20B21D /* Cabin_SemiCondensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B49489FB7248495F86372174 /* Cabin_SemiCondensed-SemiBoldItalic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		83998C006DBF47B0B073AAFC /* Cabin_Condensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFA362E6639E4481AD41F0C7 /* Cabin_Condensed-Regular.ttf */; };
+		85440C02FE634A148BB17973 /* Cabin-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0175343E5B964AC98A5C7E60 /* Cabin-SemiBoldItalic.ttf */; };
+		857C224E4C47478DA3D1A59C /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E24C62C75D9F4815A6081F6C /* Roboto-ThinItalic.ttf */; };
+		873AF09294844D199DC7BACF /* Cabin_Condensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC59A98899B0429AB87C104E /* Cabin_Condensed-MediumItalic.ttf */; };
+		8B04777863DC4759A8D552D4 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D543CC725C304A259D84FCDE /* Roboto-Light.ttf */; };
+		9C2932417217413AB9403EDB /* Cabin_SemiCondensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0592C7144134A7EB4D0D0AC /* Cabin_SemiCondensed-MediumItalic.ttf */; };
+		A4AD42A82C7B4FBCB1480E47 /* Cabin_Condensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B956818794C45AD8CEE228D /* Cabin_Condensed-BoldItalic.ttf */; };
+		AA2B98D4B3A64F6CA0505314 /* Cabin-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50BBEC8512D84EFD9FD64500 /* Cabin-MediumItalic.ttf */; };
+		BD043BFFD741449FAB9E3873 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0F5E937FE4C41FB89C2647F /* Roboto-MediumItalic.ttf */; };
+		BF85B232132640A8A5D31F2A /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B56AB86FBFE6411489EB2086 /* Roboto-LightItalic.ttf */; };
+		C23F2A8B6E51411DB0B00F16 /* Cabin-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D63D70C25FAA49AA856F64A2 /* Cabin-Italic.ttf */; };
+		C6F0BD4AC7F94EBC95E04AB3 /* Cabin-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D5B793A60DD4C3994470ADD /* Cabin-Bold.ttf */; };
+		C8137FA182C6C877735F308B /* libPods-WoddleChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0A8D9B638B143208A45793 /* libPods-WoddleChallenge.a */; };
+		CF4666F201CE4F77AE367A7B /* Ribeye-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E19634A4714A4AD5AB1014CB /* Ribeye-Regular.ttf */; };
+		D0FF623BDA4E4925A8E7BF98 /* Cabin_Condensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 352CD32EBB5A416BA833D38E /* Cabin_Condensed-Italic.ttf */; };
+		E7C2A0C4DF5D4010B7BF3FC2 /* Cabin_SemiCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D4629227EE84F578F754603 /* Cabin_SemiCondensed-Medium.ttf */; };
+		E7FF2087B5744AB0A17CFD6C /* Cabin-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A59490C2721B495BB18D9499 /* Cabin-Medium.ttf */; };
+		ED02B71C8CE6464DA5A10377 /* Cabin_Condensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A7099FBF72843E4B4A8D7F3 /* Cabin_Condensed-SemiBold.ttf */; };
+		F03206416A02618DDAF7BDE6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6F7B99FAD5B8EE35C6E737E8 /* PrivacyInfo.xcprivacy */; };
+		F126F2F3F1C84BC9A7E8C0DF /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A71593E48E034EF89BFAF810 /* Roboto-BlackItalic.ttf */; };
+		F34667E310964CA4AAD4CA7D /* Cabin_SemiCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9F9DFC576DA4501A049AA0D /* Cabin_SemiCondensed-Italic.ttf */; };
+		F52B84BFF69B851A458E438F /* libPods-WoddleChallenge-WoddleChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5F8843E72C67E3F88C5E6F /* libPods-WoddleChallenge-WoddleChallengeTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = WoddleChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* WoddleChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoddleChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* WoddleChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoddleChallengeTests.m; sourceTree = "<group>"; };
+		0175343E5B964AC98A5C7E60 /* Cabin-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-SemiBoldItalic.ttf"; path = "../assets/fonts/Cabin-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		07C1797619434D189A8ECE5B /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* WoddleChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoddleChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = WoddleChallenge/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = WoddleChallenge/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WoddleChallenge/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = WoddleChallenge/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WoddleChallenge/main.m; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = WoddleChallenge/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		14448B0628A54AB6B34938F4 /* Cabin_Condensed-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin_Condensed-Medium.ttf"; path = "../assets/fonts/Cabin_Condensed-Medium.ttf"; sourceTree = "<group>"; };
+		18D6966095FA431BB8672B80 /* Cabin_SemiCondensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin_SemiCondensed-Regular.ttf"; path = "../assets/fonts/Cabin_SemiCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		1D5F8843E72C67E3F88C5E6F /* libPods-WoddleChallenge-WoddleChallengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WoddleChallenge-WoddleChallengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F32818073E43978D891862 /* Cabin-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-Regular.ttf"; path = "../assets/fonts/Cabin-Regular.ttf"; sourceTree = "<group>"; };
+		2D4629227EE84F578F754603 /* Cabin_SemiCondensed-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin_SemiCondensed-Medium.ttf"; path = "../assets/fonts/Cabin_SemiCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		352CD32EBB5A416BA833D38E /* Cabin_Condensed-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin_Condensed-Italic.ttf"; path = "../assets/fonts/Cabin_Condensed-Italic.ttf"; sourceTree = "<group>"; };
+		3C0A8D9B638B143208A45793 /* libPods-WoddleChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WoddleChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50BBEC8512D84EFD9FD64500 /* Cabin-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-MediumItalic.ttf"; path = "../assets/fonts/Cabin-MediumItalic.ttf"; sourceTree = "<group>"; };
+		5D5B793A60DD4C3994470ADD /* Cabin-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-Bold.ttf"; path = "../assets/fonts/Cabin-Bold.ttf"; sourceTree = "<group>"; };
+		62BF16911715400784FD3D80 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6F7B99FAD5B8EE35C6E737E8 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = WoddleChallenge/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		783F66DEA78E18AFA79BC72E /* Pods-WoddleChallenge-WoddleChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoddleChallenge-WoddleChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-WoddleChallenge-WoddleChallengeTests/Pods-WoddleChallenge-WoddleChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A7099FBF72843E4B4A8D7F3 /* Cabin_Condensed-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin_Condensed-SemiBold.ttf"; path = "../assets/fonts/Cabin_Condensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		7B956818794C45AD8CEE228D /* Cabin_Condensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin_Condensed-BoldItalic.ttf"; path = "../assets/fonts/Cabin_Condensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = WoddleChallenge/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8645B72407F34FF895D440AD /* Cabin_SemiCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin_SemiCondensed-BoldItalic.ttf"; path = "../assets/fonts/Cabin_SemiCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		875406026D7C45E7A1B54818 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		8BD4429D5F574DA4B7002730 /* Cabin_SemiCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin_SemiCondensed-Bold.ttf"; path = "../assets/fonts/Cabin_SemiCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		933524976E0228572233AD8A /* Pods-WoddleChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoddleChallenge.debug.xcconfig"; path = "Target Support Files/Pods-WoddleChallenge/Pods-WoddleChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		985BECBB8DC9442891F7E7D6 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		A59490C2721B495BB18D9499 /* Cabin-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-Medium.ttf"; path = "../assets/fonts/Cabin-Medium.ttf"; sourceTree = "<group>"; };
+		A71593E48E034EF89BFAF810 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A9B461CA8C95400E90F726CF /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		AC59A98899B0429AB87C104E /* Cabin_Condensed-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin_Condensed-MediumItalic.ttf"; path = "../assets/fonts/Cabin_Condensed-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B0F5E937FE4C41FB89C2647F /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B0FCE18AA430B00972093527 /* Pods-WoddleChallenge-WoddleChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoddleChallenge-WoddleChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-WoddleChallenge-WoddleChallengeTests/Pods-WoddleChallenge-WoddleChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B291293DEDCC4E1BA16E8146 /* Cabin-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-SemiBold.ttf"; path = "../assets/fonts/Cabin-SemiBold.ttf"; sourceTree = "<group>"; };
+		B2EA5793983B48D09E718766 /* Cabin-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-BoldItalic.ttf"; path = "../assets/fonts/Cabin-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B49489FB7248495F86372174 /* Cabin_SemiCondensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin_SemiCondensed-SemiBoldItalic.ttf"; path = "../assets/fonts/Cabin_SemiCondensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B56AB86FBFE6411489EB2086 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		CE4E532B529944BC9EC1E4DA /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		CFA362E6639E4481AD41F0C7 /* Cabin_Condensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin_Condensed-Regular.ttf"; path = "../assets/fonts/Cabin_Condensed-Regular.ttf"; sourceTree = "<group>"; };
+		D43750D66FA04D0D8F304816 /* Cabin_SemiCondensed-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin_SemiCondensed-SemiBold.ttf"; path = "../assets/fonts/Cabin_SemiCondensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		D543CC725C304A259D84FCDE /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		D63D70C25FAA49AA856F64A2 /* Cabin-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-Italic.ttf"; path = "../assets/fonts/Cabin-Italic.ttf"; sourceTree = "<group>"; };
+		D9EF8A910D614F62853CC189 /* Cabin_Condensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin_Condensed-Bold.ttf"; path = "../assets/fonts/Cabin_Condensed-Bold.ttf"; sourceTree = "<group>"; };
+		D9F9DFC576DA4501A049AA0D /* Cabin_SemiCondensed-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin_SemiCondensed-Italic.ttf"; path = "../assets/fonts/Cabin_SemiCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		E0592C7144134A7EB4D0D0AC /* Cabin_SemiCondensed-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin_SemiCondensed-MediumItalic.ttf"; path = "../assets/fonts/Cabin_SemiCondensed-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E19634A4714A4AD5AB1014CB /* Ribeye-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ribeye-Regular.ttf"; path = "../assets/fonts/Ribeye-Regular.ttf"; sourceTree = "<group>"; };
+		E24C62C75D9F4815A6081F6C /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E256D52DBD294E9FAFFF8419 /* Cabin_Condensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin_Condensed-SemiBoldItalic.ttf"; path = "../assets/fonts/Cabin_Condensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E91542B5A5BE447E878F3F50 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F6077603044C735199B8B8CA /* Pods-WoddleChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoddleChallenge.release.xcconfig"; path = "Target Support Files/Pods-WoddleChallenge/Pods-WoddleChallenge.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52B84BFF69B851A458E438F /* libPods-WoddleChallenge-WoddleChallengeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8137FA182C6C877735F308B /* libPods-WoddleChallenge.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* WoddleChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* WoddleChallengeTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = WoddleChallengeTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* WoddleChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				6F7B99FAD5B8EE35C6E737E8 /* PrivacyInfo.xcprivacy */,
+			);
+			name = WoddleChallenge;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				3C0A8D9B638B143208A45793 /* libPods-WoddleChallenge.a */,
+				1D5F8843E72C67E3F88C5E6F /* libPods-WoddleChallenge-WoddleChallengeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C525E86EE974BCE8300CDED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D5B793A60DD4C3994470ADD /* Cabin-Bold.ttf */,
+				B2EA5793983B48D09E718766 /* Cabin-BoldItalic.ttf */,
+				D63D70C25FAA49AA856F64A2 /* Cabin-Italic.ttf */,
+				A59490C2721B495BB18D9499 /* Cabin-Medium.ttf */,
+				50BBEC8512D84EFD9FD64500 /* Cabin-MediumItalic.ttf */,
+				21F32818073E43978D891862 /* Cabin-Regular.ttf */,
+				B291293DEDCC4E1BA16E8146 /* Cabin-SemiBold.ttf */,
+				0175343E5B964AC98A5C7E60 /* Cabin-SemiBoldItalic.ttf */,
+				D9EF8A910D614F62853CC189 /* Cabin_Condensed-Bold.ttf */,
+				7B956818794C45AD8CEE228D /* Cabin_Condensed-BoldItalic.ttf */,
+				352CD32EBB5A416BA833D38E /* Cabin_Condensed-Italic.ttf */,
+				14448B0628A54AB6B34938F4 /* Cabin_Condensed-Medium.ttf */,
+				AC59A98899B0429AB87C104E /* Cabin_Condensed-MediumItalic.ttf */,
+				CFA362E6639E4481AD41F0C7 /* Cabin_Condensed-Regular.ttf */,
+				7A7099FBF72843E4B4A8D7F3 /* Cabin_Condensed-SemiBold.ttf */,
+				E256D52DBD294E9FAFFF8419 /* Cabin_Condensed-SemiBoldItalic.ttf */,
+				8BD4429D5F574DA4B7002730 /* Cabin_SemiCondensed-Bold.ttf */,
+				8645B72407F34FF895D440AD /* Cabin_SemiCondensed-BoldItalic.ttf */,
+				D9F9DFC576DA4501A049AA0D /* Cabin_SemiCondensed-Italic.ttf */,
+				2D4629227EE84F578F754603 /* Cabin_SemiCondensed-Medium.ttf */,
+				E0592C7144134A7EB4D0D0AC /* Cabin_SemiCondensed-MediumItalic.ttf */,
+				18D6966095FA431BB8672B80 /* Cabin_SemiCondensed-Regular.ttf */,
+				D43750D66FA04D0D8F304816 /* Cabin_SemiCondensed-SemiBold.ttf */,
+				B49489FB7248495F86372174 /* Cabin_SemiCondensed-SemiBoldItalic.ttf */,
+				E19634A4714A4AD5AB1014CB /* Ribeye-Regular.ttf */,
+				985BECBB8DC9442891F7E7D6 /* Roboto-Black.ttf */,
+				A71593E48E034EF89BFAF810 /* Roboto-BlackItalic.ttf */,
+				CE4E532B529944BC9EC1E4DA /* Roboto-Bold.ttf */,
+				62BF16911715400784FD3D80 /* Roboto-BoldItalic.ttf */,
+				875406026D7C45E7A1B54818 /* Roboto-Italic.ttf */,
+				D543CC725C304A259D84FCDE /* Roboto-Light.ttf */,
+				B56AB86FBFE6411489EB2086 /* Roboto-LightItalic.ttf */,
+				07C1797619434D189A8ECE5B /* Roboto-Medium.ttf */,
+				B0F5E937FE4C41FB89C2647F /* Roboto-MediumItalic.ttf */,
+				E91542B5A5BE447E878F3F50 /* Roboto-Regular.ttf */,
+				A9B461CA8C95400E90F726CF /* Roboto-Thin.ttf */,
+				E24C62C75D9F4815A6081F6C /* Roboto-ThinItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* WoddleChallenge */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* WoddleChallengeTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				4C525E86EE974BCE8300CDED /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* WoddleChallenge.app */,
+				00E356EE1AD99517003FC87E /* WoddleChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				933524976E0228572233AD8A /* Pods-WoddleChallenge.debug.xcconfig */,
+				F6077603044C735199B8B8CA /* Pods-WoddleChallenge.release.xcconfig */,
+				B0FCE18AA430B00972093527 /* Pods-WoddleChallenge-WoddleChallengeTests.debug.xcconfig */,
+				783F66DEA78E18AFA79BC72E /* Pods-WoddleChallenge-WoddleChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* WoddleChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WoddleChallengeTests" */;
+			buildPhases = (
+				F69BF808D3614B11A530A7B9 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				FA9125F3B9DCF54A7BF843F1 /* [CP] Embed Pods Frameworks */,
+				668EA886B991C3B59C7CA571 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = WoddleChallengeTests;
+			productName = WoddleChallengeTests;
+			productReference = 00E356EE1AD99517003FC87E /* WoddleChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* WoddleChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WoddleChallenge" */;
+			buildPhases = (
+				A4F2C098F81B4D392203CE47 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				BA512A1E21BF1D295D16A7EF /* [CP] Embed Pods Frameworks */,
+				6B34DE89D1FE5277098BC5DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WoddleChallenge;
+			productName = WoddleChallenge;
+			productReference = 13B07F961A680F5B00A75B9A /* WoddleChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "WoddleChallenge" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* WoddleChallenge */,
+				00E356ED1AD99517003FC87E /* WoddleChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F03206416A02618DDAF7BDE6 /* PrivacyInfo.xcprivacy in Resources */,
+				C6F0BD4AC7F94EBC95E04AB3 /* Cabin-Bold.ttf in Resources */,
+				7ED7C9B7FE594FF4960D7B41 /* Cabin-BoldItalic.ttf in Resources */,
+				C23F2A8B6E51411DB0B00F16 /* Cabin-Italic.ttf in Resources */,
+				E7FF2087B5744AB0A17CFD6C /* Cabin-Medium.ttf in Resources */,
+				AA2B98D4B3A64F6CA0505314 /* Cabin-MediumItalic.ttf in Resources */,
+				778FED3421CE49EEA2E8D318 /* Cabin-Regular.ttf in Resources */,
+				7D0ADCD7A3BF498892AD6941 /* Cabin-SemiBold.ttf in Resources */,
+				85440C02FE634A148BB17973 /* Cabin-SemiBoldItalic.ttf in Resources */,
+				1A50CA1C15E646B2976AD741 /* Cabin_Condensed-Bold.ttf in Resources */,
+				A4AD42A82C7B4FBCB1480E47 /* Cabin_Condensed-BoldItalic.ttf in Resources */,
+				D0FF623BDA4E4925A8E7BF98 /* Cabin_Condensed-Italic.ttf in Resources */,
+				38FAFE34D0EE45C29E97082B /* Cabin_Condensed-Medium.ttf in Resources */,
+				873AF09294844D199DC7BACF /* Cabin_Condensed-MediumItalic.ttf in Resources */,
+				83998C006DBF47B0B073AAFC /* Cabin_Condensed-Regular.ttf in Resources */,
+				ED02B71C8CE6464DA5A10377 /* Cabin_Condensed-SemiBold.ttf in Resources */,
+				60EBE26E07B54C01B6C365B0 /* Cabin_Condensed-SemiBoldItalic.ttf in Resources */,
+				7E424B36BD6B40DD97860B2B /* Cabin_SemiCondensed-Bold.ttf in Resources */,
+				17E1535219F9461795E51520 /* Cabin_SemiCondensed-BoldItalic.ttf in Resources */,
+				F34667E310964CA4AAD4CA7D /* Cabin_SemiCondensed-Italic.ttf in Resources */,
+				E7C2A0C4DF5D4010B7BF3FC2 /* Cabin_SemiCondensed-Medium.ttf in Resources */,
+				9C2932417217413AB9403EDB /* Cabin_SemiCondensed-MediumItalic.ttf in Resources */,
+				50F90B0E6F0F4E08ADCB42B4 /* Cabin_SemiCondensed-Regular.ttf in Resources */,
+				5375BA9737CD44F780E26373 /* Cabin_SemiCondensed-SemiBold.ttf in Resources */,
+				80BC0C9B008A4F548F20B21D /* Cabin_SemiCondensed-SemiBoldItalic.ttf in Resources */,
+				CF4666F201CE4F77AE367A7B /* Ribeye-Regular.ttf in Resources */,
+				294AA7323B374778AAE6BA28 /* Roboto-Black.ttf in Resources */,
+				F126F2F3F1C84BC9A7E8C0DF /* Roboto-BlackItalic.ttf in Resources */,
+				485A0B14DD3745908CF724BB /* Roboto-Bold.ttf in Resources */,
+				2BEC7C766E4A4905BAA3A3F0 /* Roboto-BoldItalic.ttf in Resources */,
+				7A5246D8D1E643B3973B94BC /* Roboto-Italic.ttf in Resources */,
+				8B04777863DC4759A8D552D4 /* Roboto-Light.ttf in Resources */,
+				BF85B232132640A8A5D31F2A /* Roboto-LightItalic.ttf in Resources */,
+				2DB552F73DF343969A34153F /* Roboto-Medium.ttf in Resources */,
+				BD043BFFD741449FAB9E3873 /* Roboto-MediumItalic.ttf in Resources */,
+				47E73B21EB7B4BDCB5085B8A /* Roboto-Regular.ttf in Resources */,
+				054FA75FC6B342A3AE80BA7B /* Roboto-Thin.ttf in Resources */,
+				857C224E4C47478DA3D1A59C /* Roboto-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		668EA886B991C3B59C7CA571 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WoddleChallenge-WoddleChallengeTests/Pods-WoddleChallenge-WoddleChallengeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WoddleChallenge-WoddleChallengeTests/Pods-WoddleChallenge-WoddleChallengeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WoddleChallenge-WoddleChallengeTests/Pods-WoddleChallenge-WoddleChallengeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B34DE89D1FE5277098BC5DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WoddleChallenge/Pods-WoddleChallenge-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WoddleChallenge/Pods-WoddleChallenge-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WoddleChallenge/Pods-WoddleChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4F2C098F81B4D392203CE47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WoddleChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA512A1E21BF1D295D16A7EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WoddleChallenge/Pods-WoddleChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WoddleChallenge/Pods-WoddleChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WoddleChallenge/Pods-WoddleChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69BF808D3614B11A530A7B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WoddleChallenge-WoddleChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA9125F3B9DCF54A7BF843F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WoddleChallenge-WoddleChallengeTests/Pods-WoddleChallenge-WoddleChallengeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WoddleChallenge-WoddleChallengeTests/Pods-WoddleChallenge-WoddleChallengeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WoddleChallenge-WoddleChallengeTests/Pods-WoddleChallenge-WoddleChallengeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* WoddleChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* WoddleChallenge */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0FCE18AA430B00972093527 /* Pods-WoddleChallenge-WoddleChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WoddleChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoddleChallenge.app/WoddleChallenge";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 783F66DEA78E18AFA79BC72E /* Pods-WoddleChallenge-WoddleChallengeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = WoddleChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoddleChallenge.app/WoddleChallenge";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933524976E0228572233AD8A /* Pods-WoddleChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = WoddleChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = WoddleChallenge;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6077603044C735199B8B8CA /* Pods-WoddleChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = WoddleChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = WoddleChallenge;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CXX = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CXX = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WoddleChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WoddleChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "WoddleChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
